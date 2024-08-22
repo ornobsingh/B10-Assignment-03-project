@@ -28,6 +28,14 @@
       },
     }
   </script>
+  <style>
+    .discuss-project {
+      background-image: url(assets/bg.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
 </head>
 
 <body class="font-manrope">
@@ -192,7 +200,45 @@
       </section>
     </section>
 
+    <!-- Discuss Project section -->
+    <section class="discuss-project">
+      <div class="w-10/12 mx-auto py-16">
+        <div class="flex flex-col justify-center items-center space-y-4">
+          <button class="bg-[#ecfccb] rounded-3xl px-4 py-2 text-base font-bold mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>Let’s Connect
+          </button>
+          <h2 class="text-3xl font-extrabold text-center">Our Works Process</h2>
+          <p class="text-gray-700 text-center text-base w-2/3">The barn house captivates with its blend of rustic
+            charm
+            and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10">
+          <input class="p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="First Name*">
+          <input class="p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Last Name*">
+          <input class="p-4 border-none outline-none bg-white rounded-3xl w-full" type="number"
+            placeholder="Phone Number*">
+          <input class="p-4 border-none outline-none bg-white rounded-3xl w-full" type="email"
+            placeholder="Email name*">
 
+          <div class="lg:col-span-2">
+            <textarea rows="9" class="p-4 border-none outline-none bg-white rounded-3xl w-full" name="" id=""
+              placeholder="Write your message here"></textarea>
+          </div>
+
+          <div class="lg:col-span-2">
+            <a class="btn bg-rinterio_primary rounded-3xl lg:text-base font-semibold w-full">Send Mail
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-8 bg-slate-950 text-white rounded-full p-1.5 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
